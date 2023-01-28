@@ -1,9 +1,9 @@
-var Fname = prompt("What is your first Name");
-var Lname = prompt("What is your last Name");
+var Fnum = parseInt(prompt("What is your first Number"));
+var Lnum = parseInt(prompt("What is your last Number"));
 
-let Name = "your name is" + " " + Fname + " " + Lname;
+let Num = "your name is" + " " + Fnum + " " + Lnum;
 
-alert(Name);
+alert(Num);
 
 var firstName = prompt("What is your first Name");
 var lastName = prompt("What is your last Name");
@@ -15,4 +15,6 @@ var newName = fname + lname;
 
 var lower = newName.toLocaleLowerCase();
 
-alert(lower);
+output = "Your Capacity user id is " + lower;
+
+alert(output);
